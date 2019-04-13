@@ -6,21 +6,22 @@
 ### 从[Android Developers](https://developer.android.google.cn/)官网下载
   * [Android Developers](https://developer.android.google.cn/)官网
   
-  ![pic1-01](./PICS/P1/p1-01.png)
+  ![pic1-01](./PICS/p1-01.png)
   * 下载Android Studio二进制文件
   
-  ![pic1-02](./PICS/P1/p1-02.png)
+  ![pic1-02](./PICS/p1-02.png)
 ### 通过[JetBrains](https://www.jetbrains.com/)的[Toolbox](https://www.jetbrains.com/toolbox/)下载最新版本的Android Studio（推荐方式）
   *  安装后界面
   
-  ![pic1-03](./PICS/P1/p1-03.png)
+  ![pic1-03](./PICS/p1-03.png)
 
 -------------
 ## Android Studio的配置
 ### 添加国内镜像（由于某些原因导致的下载速度慢）
 #### 开启嵌入式Maven仓库
-Settings $\rightarrow$ Build,Execution,Deployment $\rightarrow$ Gradle $\rightarrow$ Android studio 
-![pic1-04](./PICS/P1/p1-04.png)
+Settings -> Build,Execution,Deployment -> Gradle -> Android studio 
+
+![pic1-04](./PICS/p1-04.png)
 #### 添加国内镜像网站
 * 在用户目录创建.gradle目录并新建```init.gradle```文件
   > Linux
