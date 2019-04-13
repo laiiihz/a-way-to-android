@@ -54,7 +54,33 @@ Settings -> Build,Execution,Deployment -> Gradle -> Android studio
             url ALIYUN_JCENTER_URL
         }
     }
-}
+
   ```
--------------
+
 ## Hello World的创建
+* 打开Android Studio
+
+    ![pic1-05](./PICS/p1-05.png)
+* 选择Start a new Android Studio project
+
+    ![pic1-06](./PICS/p1-06.png)
+* 点击下一步（next）
+    
+    ![pic1-07](./PICS/p1-07.png)
+> 填写项目名称```Name```（首字母大写）
+> 填写包名```Package name```以及选择保存路径
+> 语言```language```我们选择Kotlin
+> 选择你的最低API等级```Minimum API level```
+> 点击结束 ```finish```
+
+至此你的Hello World 项目就创建成功了
+
+* 等待项目构建完成
+    * 去喝一杯咖啡等待构建完成！
+* 构建完成后可以看到有两个主要的页面，```activity_main.xml```和```MainActivity.kt```
+
+我们主要使用设计器来控制和添加```activity_main.xml```中的内容，也可以直接在Android Studio靠左下角的位置选择text来手动编写代码
+
+在```MainActivity.kt```中，我们实现软件的逻辑功能
+
+
